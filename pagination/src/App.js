@@ -1,11 +1,10 @@
-import React from "react";
-import XPagination from "./XPagination";
-import "./App.css";
-
+// import logo from './logo.svg';
+import './App.css';
+import Pagination from './Paginantion';
 function App() {
   return (
     <div className="App">
-      <XPagination />
+     <Pagination/>
     </div>
   );
 }
